@@ -1,0 +1,74 @@
+ifconfig: Displays or configures network interfaces.
+Example: ifconfig eth0 (shows details for the eth0 interface).
+
+ip: Manages IP addresses and network interfaces.
+Example: ip addr show (displays all assigned IP addresses).
+
+ping: Checks connectivity to a host.
+Example: ping google.com.
+
+traceroute: Tracks the route packets take to a host.
+Example: traceroute google.com.
+
+netstat: Displays network connections, routing tables, and interface statistics.
+Example: netstat -tuln (lists active listening ports).
+
+ss: Displays detailed network socket information (replacement for netstat).
+Example: ss -tuln.
+
+nslookup: Queries DNS to resolve domain names to IP addresses.
+Example: nslookup google.com.
+
+dig: Performs DNS lookups.
+Example: dig google.com.
+
+arp: Displays or modifies the ARP table.
+Example: arp -a (shows the ARP table).
+
+route: Displays or manipulates the IP routing table.
+Example: route -n (shows the routing table).
+
+wget: Downloads files from the web.
+Example: wget http://example.com/file.txt.
+
+curl: Transfers data from or to a server.
+Example: curl http://example.com.
+
+scp: Securely copies files between systems.
+Example: scp file.txt user@remote:/path/to/destination.
+
+ftp: Connects to an FTP server to upload or download files.
+Example: ftp ftp.example.com.
+
+sftp: Connects to an SFTP server for secure file transfers.
+Example: sftp user@remote.
+
+ssh: Securely connects to a remote server.
+Example: ssh user@remote.
+
+tcpdump: Captures and analyzes network packets.
+Example: tcpdump -i eth0.
+
+nmap: Scans networks for open ports and services.
+Example: nmap 192.168.1.1.
+
+iptables: Configures firewall rules.
+Example: iptables -L (lists all rules).
+
+nmcli: Manages network connections via the command line.
+Example: nmcli device status.
+
+ethtool: Displays or changes Ethernet device settings.
+Example: ethtool eth0.
+
+iwconfig: Configures wireless network interfaces.
+Example: iwconfig wlan0.
+
+whois: Queries domain information.
+Example: whois example.com.
+
+netcat (nc): Opens a network connection for debugging or testing.
+Example: nc -zv 192.168.1.1 80.
+
+bandwidth (iperf): Measures bandwidth between two hosts.
+Example: iperf -c remote_host.
