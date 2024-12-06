@@ -1,0 +1,77 @@
+uname: Displays system information.
+Example: uname -a (shows kernel version, hostname, and architecture).
+
+hostname: Displays or sets the system's hostname.
+Example: hostname (shows the current hostname).
+
+uptime: Shows how long the system has been running.
+Example: uptime (displays current time, uptime duration, and load average).
+
+who: Displays information about logged-in users.
+Example: who (shows usernames, terminals, and login times).
+
+whoami: Displays the current logged-in user.
+Example: whoami.
+
+id: Displays user ID (UID) and group ID (GID).
+Example: id (shows detailed user and group information).
+
+top: Displays real-time system processes and resource usage.
+Example: top.
+
+htop: Interactive, user-friendly version of top.
+Example: htop.
+
+ps: Displays active processes.
+Example: ps aux (shows all processes with detailed information).
+
+kill: Sends signals to terminate processes.
+Example: kill -9 1234 (forcefully kills process ID 1234).
+
+df: Displays available disk space on file systems.
+Example: df -h (shows sizes in human-readable format).
+
+du: Displays disk usage of files and directories.
+Example: du -sh /path/to/directory.
+
+free: Displays memory usage.
+Example: free -h (shows memory and swap usage in human-readable format).
+
+vmstat: Displays system performance statistics.
+Example: vmstat 5 (updates every 5 seconds).
+
+dmesg: Prints kernel messages (useful for debugging).
+Example: dmesg | tail (shows the latest kernel messages).
+
+sysctl: Views or modifies kernel parameters.
+Example: sysctl -a (lists all kernel parameters).
+
+uptime: Displays system uptime and load averages.
+Example: uptime.
+
+shutdown: Shuts down or restarts the system.
+Example: shutdown -h now (shuts down immediately).
+
+reboot: Restarts the system.
+Example: reboot.
+
+systemctl: Manages systemd services and units.
+Example: systemctl status sshd (checks the SSH service status).
+
+journalctl: Views system logs managed by systemd.
+Example: journalctl -xe (shows recent logs with errors).
+
+lscpu: Displays CPU architecture information.
+Example: lscpu.
+
+lsblk: Lists information about block devices.
+Example: lsblk (shows disks and partitions).
+
+blkid: Displays block device attributes like UUID and file system type.
+Example: blkid.
+
+iostat: Displays CPU and I/O statistics.
+Example: iostat.
+
+uptime: Displays the current time, uptime, and load averages.
+Example: uptime.
